@@ -1,0 +1,30 @@
+/*.portfolio-details-slider {*/
+/*    width: 615px;*/
+/*    height: 348px;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.portfolio-info {*/
+/*    width: 615px;*/
+/*    height: auto;*/
+/*    display: grid;*/
+/*}*/
+
+/*.product-img img {*/
+/*    display: block;*/
+/*    max-width: 100%;*/
+/*    height: auto;*/
+/*}*/
+
+/*.phone-image {*/
+/*    width: 50%;*/
+/*    height: auto;*/
+/*    object-fit: contain;*/
+/*    overflow: auto;*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center;*/
+/*    background-size: cover;*/
+/*}*/
