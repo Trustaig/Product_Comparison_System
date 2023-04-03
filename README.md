@@ -1,2 +1,8 @@
-# Inventroy_Managment_System
-Website for an inventroy management systems for technology.
+# Product_Recommendation_System
+
+Website for a product comparison systems for technology products.
+features include:
+product comparison
+product recomendation
+Favourites
+Third party links to purchase products
