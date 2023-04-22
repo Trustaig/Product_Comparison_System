@@ -20,5 +20,3 @@
         $stmt->close();
         $conn->close();
     }
-
-//}

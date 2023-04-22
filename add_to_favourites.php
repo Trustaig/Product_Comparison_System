@@ -9,7 +9,7 @@ $conn = $database->getConnection();
 // Retrieve the phone ID from the POST request
 $phoneId = $_POST["phoneId"];
 
-// Retrieve the user ID from the session (if any)
+// Retrieve the user ID from the session
 $userId = isset($_SESSION['user_id']) ? $_SESSION['user_id'] : null;
 
 // Insert the favourite into the database

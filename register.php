@@ -3,12 +3,9 @@ include 'SessionNavbar.php';
 include 'assets/css/phone-card.php';
 
 // connect to database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "products";
-
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+require_once 'model/Database.php';
+$db = new Database();
+$conn = $db->getConnection();
 
 // check if form submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

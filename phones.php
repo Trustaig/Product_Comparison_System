@@ -65,7 +65,8 @@ include 'assets/css/phone-card.php';
                     <div class='phone-details'>
                         <div class='phone-model'><?php echo $row["phone_model"]; ?></div>
                         <div class='phone-price'>&pound;<?php echo $row["price"]; ?></div>
-                        <button class='buy-now'><a href='<?php echo $row["link"]; ?>'>Buy Now</a></button>
+                        <button class='buy-now'><a href='<?php echo htmlspecialchars($row["link"], ENT_QUOTES); ?>'>Buy Now</a></button>
+<!--                        <button class='buy-now'><a href='--><?php //echo $row["link"]; ?><!--'>Buy Now</a></button>-->
 
                         <?php
                         //Compare button only works if user is logged in

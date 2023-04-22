@@ -14,6 +14,27 @@ $conn = $db->getConnection();
     <style>
         #product-details, #compare-section {margin: 0;padding: 0;}
 
+        .portfolio-details-slider {
+            width: 615px;
+            height: 348px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .portfolio-info {
+            width: 615px;
+            height: auto;
+            display: grid;
+        }
+
+        .product-img img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+
         .phone-image {
             width: 45%;
             height: auto;
