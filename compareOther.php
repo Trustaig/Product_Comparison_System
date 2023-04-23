@@ -134,7 +134,7 @@ $conn = $db->getConnection();
 
                     <!-- ======= Review Section ======= -->
                     <br><br>
-                    <h3 class='text-center'>Leave a Review</h3>;
+                    <h3 class='text-center'>Leave a Review</h3>
                     <form method="POST" action="#">
                         <div class="form-group">
                             <label for="product-select">Product:</label>
