@@ -58,7 +58,7 @@ $conn = $db->getConnection();
                         <div class="row">
                             <div class="col-md-auto">
                                 <?php if (isset($_SESSION['user_id'])) { ?>
-                                    <a href="landing_page.php #Categories" class="btn-get-started">Continue Shopping</a>
+                                    <a href="laptops.php" class="btn-get-started">Continue Shopping</a>
                                 <?php } else {echo '<a class="btn-get-started" href="index.php #Categories">Continue Shopping</a>';} ?>
                             </div>
                         </div>
@@ -230,11 +230,11 @@ $conn = $db->getConnection();
                         echo "<li><strong>Price</strong>: £" . $row["price"] . "</li>";
 
                         $details = $row["details"];
-                        // this replaces commas in data with spaces
-                        $details = str_replace(",,", "<br><br>", $details);
-                        $details = str_replace(",", "<br>", $details);
-                        // Display the new format of details
-                        echo "<li><strong>Device Specifications</strong>: " . $row["details"] . "</li>";
+                                                // this replaces commas in data with spaces
+                                                $details = str_replace(",,", "<br><br>", $details);
+                                                $details = str_replace(",", "<br>", $details);
+                                                // Display the new format of details
+                                                echo "<li><strong>Device Specifications</strong>: " . $details . "</li>";
 
                         echo "<li><strong>Buy Now From:</strong> <a href='" . $row["link"] . "' target='_blank'>" .
                             parse_url($row["link"], PHP_URL_HOST) . "</a></li>";
