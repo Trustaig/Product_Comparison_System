@@ -1,5 +1,6 @@
 # Product_Comparison_System
-Code in main brance
+**Code in MASTER branch**
+
 Website for a product comparison systems for technology products.
 features include:
 product comparison
